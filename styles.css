@@ -1,0 +1,43 @@
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+body{
+    background-color: darkseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+    
+    .container{
+        width: 860px;
+        margin: 0 auto;
+        padding:40 px 30px;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+.section-wrapper{
+    display: flex;
+    gap: 24px;
+    
+}
+#hobbies, #skills{
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
